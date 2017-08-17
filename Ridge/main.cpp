@@ -1,7 +1,15 @@
 #include <iostream>
 
+using namespace std;
+
+int increment(int a, int b) {
+    return a + b;
+}
+
 int main() {
-	std::cout << "Hello world!" << std::endl;
-	std::cin.get();
-	return 0;
+	cout << increment(2, 3) << endl;
+	cout << "Hello world!" << endl;
+
+    // std::cin.get();
+    return 0;
 }
